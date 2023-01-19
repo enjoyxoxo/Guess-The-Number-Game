@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Guess The Number</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body class="text-center">
+    <nav class="navbar navbar-dark bg-dark">
+      <a href="#" class="navbar-brand">Guess The Number</a>
+    </nav>
+    <main>
+      <h1 class="banner p-3">1.2.3.</h1>
+      <div class="form-group">
+        <input
+          class="form-control form-control-lg"
+          type="number"
+          id="number-guess"
+          placeholder="What's your guess?"
+        />
+      </div>
+      <div id="result">
+        <!-- This is where the result will be -->
+      </div>
+      <button class="btn btn-lg btn-secondary" id="number-submit" type="button">
+        Check Me
+      </button>
+      <button class="btn btn-lg btn-light" id="restart-game" type="button">
+        Restart
+      </button>
+      <div id="history">
+        <!-- This is where the guess history will be -->
+      </div>
+    </main>
+    <script src="home.js"></script>
+  </body>
+</html>
